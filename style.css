@@ -6,9 +6,13 @@ body, html
 
 .btn-container {
     margin-top: 20px;
-
+    
 }
 
+
+.addBook, .generatePosition, .clearArray {
+    margin-left: 10px;
+}
 
 .bookName {
     margin-top: 20px;
