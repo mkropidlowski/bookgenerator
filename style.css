@@ -1,5 +1,6 @@
 body, html
 {
+    background-color:rgb(185, 185, 185);
     margin: 0;
     padding: 0;
 }
@@ -7,6 +8,10 @@ body, html
 .btn-container {
     margin-top: 20px;
     
+}
+
+.headerText {
+    margin-top: 20px;
 }
 
 
@@ -20,9 +25,32 @@ body, html
 
 .bookListStyle {
     list-style-type: none;
+    font-size: 25px;
+    
 }
 
 .generateText {
   margin-top: 15px;
   list-style-type: none;
+  font-size:25px;
+  font-weight: bold;
 }
+
+@media only screen and (max-width: 420px) {
+
+    body {
+        background-color:rgb(185, 185, 185);
+    }
+   .btn-container {
+
+       display: flex;
+       width: 250px;
+       margin: 20px auto;
+       justify-content: center;
+       flex-direction: column;    
+   }
+
+   .addBook, .generatePosition, .clearArray {
+    margin-top: 10px;
+}
+  }
