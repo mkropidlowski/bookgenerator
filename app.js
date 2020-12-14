@@ -33,11 +33,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
-
-
-
-
 btnAdd.addEventListener('click', e => {
 
     if(bookName.value === '') {

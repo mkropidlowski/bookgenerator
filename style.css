@@ -1,8 +1,11 @@
 body, html
 {
-    background-color:#CBD2DB;
+    background:linear-gradient(to bottom, rgb(126, 178, 255), rgb(36, 73, 129));
+    height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
 }
 
 .btn-container {
